@@ -8,7 +8,7 @@ dependencies:
   override:
     - sudo npm cache clean
     - sudo npm install -g appium@1.5.3
-    - npm run appium-run
+    - npm run appium-run:
       background: true
     - npm install
     - react-native run-ios     
