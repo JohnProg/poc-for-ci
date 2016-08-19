@@ -9,7 +9,7 @@ dependencies:
     - sudo npm cache clean
     - sudo npm install -g appium@1.5.3
     - npm run appium-run
-      background: true   
+      background: true 
     - npm install
     - react-native run-ios     
     #- xcodebuild -arch i386 clean build -workspace ios/dmx.xcworkspace -scheme dmx -sdk iphonesimulator9.3 -derivedDataPath ios/build
