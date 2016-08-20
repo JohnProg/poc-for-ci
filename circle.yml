@@ -16,7 +16,7 @@ dependencies:
     - npm install
     - react-native run-ios     
     #- xcodebuild -arch i386 clean build -workspace ios/dmx.xcworkspace -scheme dmx -sdk iphonesimulator9.3 -derivedDataPath ios/build
-    - sleep 30
+    - sleep 35
 test:
   override:
     - npm run test:e2e
