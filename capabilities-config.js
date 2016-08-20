@@ -99,21 +99,21 @@ module.exports = {
     }, 
   },
   android: {
-    '4.4': {
-      name: 'DMX iAppraise Mobile - android 4.3',
+    '6.0': {
+      name: 'DMX iAppraise Mobile - android 6.0',
       browserName: '',
       platform: '',
       appiumVersion: '1.4.16',
       platformName: 'Android',
       //platformVersion: '4.3',
-      platformVersion:'4.4',
+      platformVersion:'6.0',
       //deviceName: 'HSKC36ALGPXA1D1',
-      deviceName:'Samsung Galaxy S4 Device',        
+      deviceName:'Android Emulator',        
       appActivity: '.MainActivity',
       appPackage: 'com.dmx',          
       //app: apps.androidDmxApp
       webStorageEnabled: true,
-      app: 'sauce-storage:app-release.apk'      
+      app: 'sauce-storage:app-release.apk'
     }, 
   },
 };
