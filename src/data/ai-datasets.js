@@ -1,6 +1,6 @@
 module.exports = {
   login: {
-    user: 'fabricio.foruria@dmx.io',
+    user: 'faabricio.foruria@dmx.io',
     pass: 'Dmx2016!'   
   },
   home: {
