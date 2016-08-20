@@ -14,9 +14,11 @@ dependencies:
     - appium --address 127.0.0.1 --port 4725 &:
         background: true
     - npm install
-    - react-native run-ios     
+    - react-native run-ios: 
+        background: true
+    - sleep 60        
     #- xcodebuild -arch i386 clean build -workspace ios/dmx.xcworkspace -scheme dmx -sdk iphonesimulator9.3 -derivedDataPath ios/build
-    - sleep 35
+
 test:
   override:
     - npm run test:e2e
